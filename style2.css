@@ -1,0 +1,186 @@
+body{
+    font-size: 100%;
+   
+}
+
+img{
+    width: 100%;
+}
+
+#left{
+    width: 65%;
+}
+
+#right{
+    width: 30%;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title_img img{
+    width: 50%;
+}
+
+.logout{
+    line-height: 50px;
+    display: flex;
+}
+
+.logout_name{
+    margin-right: 20px;
+}
+
+.submit_title{
+    background-color: red;
+    color: white;
+    border-radius: 15px;
+    border: 1px solid red;
+    padding: 5px 20px;
+    margin-right: 10px;
+}
+
+#header{
+    background-color: black;
+    height: 40px;
+    line-height: 40px;
+}
+
+#header li{
+    margin-left: 100px;
+}
+
+#header ul{
+    display: flex;
+    color:white;
+}
+
+.main_title{
+    border-bottom: 2px solid black;
+    border-left: 5px solid black;
+    height: 45px;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 3px;
+}
+
+.form_wapper{
+    background-color: #fbfbfb;
+    border: 4px solid #f1f1f1;
+    width: 100%;
+    padding-right: 17px;
+    height: 510px;
+    margin-bottom: 30px;
+}
+
+.form_title{
+    border-left: 4px solid red;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.form_title p{
+    padding-left: 5px;
+}
+
+.form_item{
+    display: flex;
+    flex-direction: column;
+    margin:20px 20px;
+}
+
+.text{
+    border: 1px solid #dfdfdf;
+    width: 40%;
+    margin-top: 20px;
+    color: gray;
+}
+
+.textarea{
+    border: 1px solid #dfdfdf;
+    width: 60%;
+    height:200px;
+    margin-top: 20px;
+    color: gray;
+}
+
+.submit{
+    margin-left: 20px;
+   background-color: gray;
+   color: white
+}
+
+.contens_title{
+    font-weight: bold;
+    border-bottom: 1px dashed black;
+    height: 25px;
+}
+
+.kiji{
+    float: left;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    background-color: #fbfbfb;
+    border: 3px #ebebeb solid;
+    width: 100%;
+}
+
+.kiji h3{
+    border-bottom: 2px solid lightgray;;
+}
+
+.contens{
+    margin-top: -5px;
+    margin-bottom: 5px;
+}
+
+.handlename,.time{
+    font-size: 11px;
+}
+
+.contens_list{
+    margin-left:-35px;
+}
+
+.contens_list li{
+    margin-top: 10px;
+}
+
+.post{
+    background-color: #fbfbfb;
+    border: 4px solid #f1f1f1;
+    width: 100%;
+    height: 150px;
+    margin-top: 20px;
+}
+
+footer {
+    clear: left;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+}
+
+.err_message {
+    margin: 10px 0 0 0;
+    font-size: 11px;
+    color: red;
+}
+
+
+
+
+
+
+
+
